@@ -5,14 +5,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class MainActivityTwo extends AppCompatActivity {
+public class ActivityTwo extends AppCompatActivity {
 
     TextView textView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_two);
+        setContentView(R.layout.activity_two);
 
         textView = findViewById(R.id.take);
 
