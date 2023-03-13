@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -29,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
         button.setOnClickListener(view -> {
             if (!one.getText().toString().isEmpty() & !two.getText().toString().isEmpty() & !three.getText().toString().isEmpty()){
-                Intent intent = new Intent(MainActivity.this, MainActivity2.class);
+                Intent intent = new Intent(MainActivity.this, MainActivityTwo.class);
                 intent.putExtra("key1", one.getText().toString());
                 intent.putExtra("key2", two.getText().toString());
                 intent.putExtra("key3", three.getText().toString());
