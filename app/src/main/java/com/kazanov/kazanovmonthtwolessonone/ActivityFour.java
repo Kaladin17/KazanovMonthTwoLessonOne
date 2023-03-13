@@ -17,7 +17,6 @@ public class ActivityFour extends AppCompatActivity {
     EditText age;
     MaterialButton button;
 
-
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {

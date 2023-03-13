@@ -19,7 +19,6 @@ public class ActivityThree extends AppCompatActivity {
 
     MaterialButton button;
 
-
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
