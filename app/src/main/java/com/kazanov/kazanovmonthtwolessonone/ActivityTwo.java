@@ -16,7 +16,6 @@ public class ActivityTwo extends AppCompatActivity {
 
         textView = findViewById(R.id.take);
 
-        textView.setText("Your first name: " + getIntent().getStringExtra("key1") + "\nYour last name: " + getIntent().getStringExtra("key2") +
-                "\nYour age: " + getIntent().getStringExtra("key3"));
+        textView.setText("Hello " + getIntent().getStringExtra("key5") + "\nYour age: " + getIntent().getStringExtra("key4"));
     }
 }
